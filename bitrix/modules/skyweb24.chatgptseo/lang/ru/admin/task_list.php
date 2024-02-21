@@ -1,0 +1,14 @@
+<?
+$MESS['SKYWEB24_CHATGPTSEO_TASK_LIST'] = 'Список заданий';
+$MESS['SKYWEB24_CHATGPTSEO_ADD_BUTTON'] = 'Добавить задание';
+$MESS['SKYWEB24_CHATGPTSEO_DATE_CREATE'] = 'Дата создания';
+$MESS['SKYWEB24_CHATGPTSEO_DATE_COMPLETE'] = 'Дата завершения';
+$MESS['SKYWEB24_CHATGPTSEO_STATUS'] = 'Статус обработки';
+$MESS['SKYWEB24_CHATGPTSEO_ELEMENTS_COUNT'] = 'Количество элементов';
+$MESS['SKYWEB24_CHATGPTSEO_EDIT'] = 'Редактировать';
+$MESS['SKYWEB24_CHATGPTSEO_DELETE'] = 'Удалить';
+$MESS['SKYWEB24_CHATGPTSEO_START'] = 'Запустить';
+$MESS['SKYWEB24_CHATGPTSEO_USER'] = 'Автор';
+$MESS['SKYWEB24_CHATGPTSEO_CREATE'] = 'Создать на основе';
+
+?>

@@ -1,0 +1,31 @@
+<?
+$MESS['SKYWEB24_CHATGPTSEO_TASK_ELEMENTS'] = 'Элементы задания';
+$MESS['SKYWEB24_CHATGPTSEO_404'] = 'Ошибка 404';
+$MESS['SKYWEB24_CHATGPTSEO_404_EXPLANATION'] = 'Задания с таким ID не найдено.';
+$MESS['SKYWEB24_CHATGPTSEO_TASK_NUMBER'] = 'Задание №';
+$MESS['SKYWEB24_CHATGPTSEO_FROM'] = 'от';
+$MESS['SKYWEB24_CHATGPTSEO_CURRENT_STATUS'] = 'Текущий статус:';
+$MESS['SKYWEB24_CHATGPTSEO_STATUS'] = 'Статус обработки';
+$MESS['SKYWEB24_CHATGPTSEO_ID_ELEMENT'] = 'ID элемента';
+$MESS['SKYWEB24_CHATGPTSEO_ADD_ELEMENT'] = 'Добавить элемент';
+$MESS['SKYWEB24_CHATGPTSEO_ID_TASK'] = 'ID задания';
+$MESS['SKYWEB24_CHATGPTSEO_NAME'] = 'Название элемента';
+$MESS['SKYWEB24_CHATGPTSEO_TYPE'] = 'Тип элемента';
+$MESS['SKYWEB24_CHATGPTSEO_CHOOSE_IBLOCK'] = 'Выберите инфоблок: ';
+$MESS['SKYWEB24_CHATGPTSEO_TYPE_1'] = 'Простой';
+$MESS['SKYWEB24_CHATGPTSEO_TYPE_2'] = 'Товар с предложениями';
+$MESS['SKYWEB24_CHATGPTSEO_TYPE_3'] = 'Невалидный товар с предложениями';
+$MESS['SKYWEB24_CHATGPTSEO_TYPE_4'] = 'Предложение';
+$MESS['SKYWEB24_CHATGPTSEO_TYPE_6'] = 'Комплект';
+$MESS['SKYWEB24_CHATGPTSEO_IN_WORK'] = 'Запустить задание';
+$MESS['SKYWEB24_CHATGPTSEO_DELETE'] = 'Удалить';
+$MESS['SKYWEB24_CHATGPTSEO_DONE_WITH_ERRORS'] = 'Завершено с ошибками';
+$MESS['SKYWEB24_CHATGPTSEO_APPLY'] = 'Подтвердить';
+$MESS['SKYWEB24_CHATGPTSEO_CURRENT_IBLOCK'] = 'Выбранный инфоблок: ';
+$MESS['SKYWEB24_CHATGPTSEO_STEP_1'] = 'Шаг 1: Выбор инфоблока и элементов';
+$MESS['SKYWEB24_CHATGPTSEO_TITLE_STEP_1'] = 'Выберите нужный инфоблок и его элементы.';
+$MESS['SKYWEB24_CHATGPTSEO_STEP_2'] = 'Шаг 2: Выбор действия и объектов';
+$MESS['SKYWEB24_CHATGPTSEO_TITLE_STEP_2'] = 'Выберите действие и объекты элементов, над которыми хотите осуществить действия.';
+$MESS['SKYWEB24_CHATGPTSEO_TASK_ELEMENTS_ERROR_ALERT'] = 'Некоторые элементы завершили свою работу с ошибкой, проверьте правильность <a target="_blank" href="/bitrix/admin/settings.php?lang=ru&mid=skyweb24.chatgptseo">настроек</a>, если настройки корректны <a href="#ACTION_URL_RESTART#">перезапустите задачу</a>';
+$MESS['SKYWEB24_CHATGPTSEO_TASK_ELEMENTS_INSTRUCTION'] = 'Инструкция';
+?>

@@ -1,0 +1,8 @@
+{
+    "require": {
+        "sw24/bitrix-bus-modules-core": "^1.0.0"
+    },
+    "scripts": {
+        "update-vendor-scope": ["php8.1  ~/.composer/vendor/bin/php-scoper add-prefix --force", "composer dump-autoload -d vendor-scope"]
+    }
+}

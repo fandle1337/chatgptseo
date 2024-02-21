@@ -1,0 +1,90 @@
+:root {
+    --primary-color: #3bc8f5;
+    --highlight-color: rgba(59, 200, 245, 0.20);
+    --highlight-focused-color: rgba(59, 200, 245, 0.60);
+    --border-color: #3bc8f5;
+}
+
+*, *::before, *::after {
+    box-sizing: content-box;
+}
+
+.skyweb24-form-operation *,
+.skyweb24-form-operation *::before,
+.skyweb24-form-operation *::after {
+    box-sizing: border-box;
+}
+
+
+.p-button {
+    height: var(--ui-btn-height);
+    border-radius: 3px;
+    background: #3bc8f5;
+    border-color: #3bc8f5;
+    font-size: var(--ui-btn-font-size)/calc(var(--ui-btn-height) - 2px);
+    font-family: var(--ui-font-family-open-sans);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.p-button:enabled:focus,
+.p-button:enabled:hover {
+    background: #3eddff;
+    border-color: #3eddff;
+}
+
+.p-dropdown, .p-multiselect {
+    font-family: var(--ui-font-family-open-sans);
+    border-radius: 3px;
+}
+
+.p-inputtext {
+    display: inline-flex !important;
+    align-items: center;
+    height: var(--ui-btn-height);
+    border-radius: 3px;
+}
+
+.p-hidden-accessible:focus,
+.p-checkbox-box.p-focus,
+.p-checkbox-box:hover,
+.p-checkbox-box:focus,
+.p-dropdown:hover,
+.p-dropdown:focus,
+.p-cascadeselect:focus,
+.p-cascadeselect:hover,
+.p-cascadeselect.p-focus,
+.p-dropdown.p-focus,
+.p-multiselect.p-focus,
+.p-multiselect:hover,
+.p-multiselect:focus,
+.p-inputtext:enabled:hover,
+.p-multiselect-header .p-checkbox-focused,
+.p-inputtext:enabled:focus {
+    box-shadow: 0 0 5px 0 var(--border-color) !important;
+    border-color: var(--border-color) !important;
+}
+
+.p-cascadeselect-item.p-highlight,
+.p-multiselect-item.p-highlight,
+.p-dropdown-item.p-highlight {
+    background: var(--highlight-color) !important;
+    color: #495057 !important;
+}
+
+.p-multiselect-item.p-highlight.p-focus {
+    background: var(--highlight-color) !important;
+    color: #495057 !important;
+}
+
+.p-checkbox-box.p-highlight {
+    background: var(--highlight-focused-color) !important;
+    color: #495057 !important;
+    border-color: var(--border-color) !important;
+}
+
+.p-tooltip {
+    min-width: 10px;
+    max-width: 320px;
+    width: auto;
+}
